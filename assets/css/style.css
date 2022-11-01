@@ -1,0 +1,133 @@
+:root {
+    --blue-900: #121214;
+    --green-500: #047C3F;
+    --green-900: #1A1F1B;
+    --yellow-100: #F7DD43;
+    --gray-100: #E1E1E6;
+    --gray-800: #323238;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: var(--gray-100);
+    background: url(../img/bg-overlay.png) no-repeat var(--blue-900);
+    background-size: cover;
+}
+
+.header {
+    margin-top: 3.25em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+    margin-bottom: 3.9375em;
+}
+
+.logo {
+    width: 6.0931rem
+}
+
+.title {
+    display: block;
+    font-size: 1.875em;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(217, 217, 217, 0.8) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.cards {
+    padding: 0 2.5625rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 3.3125em;
+    text-align: center;
+    background-color: var(--green-900);
+    padding: 1.4375em;
+    border-radius: .375em;
+}
+
+.card__data {
+    width: 75%;
+    padding: .5em 1em;
+    border: var(--green-500) solid 1px;
+    border-radius: 6px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    margin: 0 auto;
+}
+
+.card__info-data {
+    
+    
+
+    color: var(--yellow-100);
+    font-size: 1.5em;
+    font-weight: 700;
+    
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.card__info-dia {
+    color: var(--gray-100);
+    font-size: .75em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.card__jogos {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.card__jogo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 1.5em;
+    justify-content: space-between;
+    border-bottom: var(--gray-800) solid 1px;
+}
+.card__jogo:last-child {
+    border: none;
+}
+
+.card__pais {
+    display: block;
+    width: 3.125em;
+}
+
+.card__info-horario {
+    display: block;
+    font-size: 2.25em;
+    font-weight: 900;
+}
+
+.card__border {
+    border-bottom: var(--green-500) solid 3px;
+    border-radius: 6px;
+}
