@@ -53,6 +53,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 2em;
+    margin-bottom: 1em;
 }
 
 .card {
