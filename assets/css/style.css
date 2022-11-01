@@ -67,7 +67,7 @@ body {
 
 .card__data {
     /* width: 75%; */
-    padding: .5em 1em;
+    padding: 8px 16px;
     border: var(--green-500) solid 1px;
     border-radius: 6px;
     display: grid;
