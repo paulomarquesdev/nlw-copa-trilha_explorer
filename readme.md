@@ -1,5 +1,5 @@
 # NLW eSports
-<img src="./assets/preview/print.png"/>
+<img align="center" src="./assets/preview/print.png"/>
 > Trilha Explorer
 
 Essa página de Calendário foi construída durante o evento Next Level Week edição Copa da Rocketseat.
