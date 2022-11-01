@@ -82,7 +82,7 @@ body {
     font-weight: 700;
     
     display: flex;
-    gap: 1em;
+    gap: 16px;
     align-items: center;
 }
 
